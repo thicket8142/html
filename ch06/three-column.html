@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h2 {
+        margin: 0;
+        padding: 0.75em;
+      }
+      body {
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 15px auto;
+        width: 90%;
+      }
+      main {
+        display: flex;
+      }
+      section {
+        background-color: azure;
+        flex-basis: 50%;
+        min-height: 10em;
+      }
+      aside {
+        background-color: aquamarine;
+        flex-basis: 25%;
+      }
+      header,
+      footer {
+        background-color: lightskyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h2>Header</h2></header>
+    <main>
+      <aside><h2>Sidebar A</h2></aside>
+      <section><h2>Main content</h2></section>
+      <aside><h2>Sidebar B</h2></aside>
+    </main>
+    <footer><h2>Footer</h2></footer>
+  </body>
+</html>
